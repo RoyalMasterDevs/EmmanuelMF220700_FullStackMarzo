@@ -1,0 +1,18 @@
+/*Sección header*/
+header{
+    background-color: cadetblue;
+    color: white;
+    font-size: 15 px;
+}
+
+
+/*Sección main*/
+main{
+    background-color: cadetblue;
+}
+
+
+/*Sección footer*/
+footer{
+    background-color: cadetblue;
+}

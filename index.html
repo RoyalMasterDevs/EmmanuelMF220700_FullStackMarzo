@@ -1,18 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <title>Portafolio de proyectos</title>
 </head>
+
 <body>
-    <h1>Hola mundo desde GIT</h1>
-    <nav>
-        <ul>
-            <li><a href="#">Reproductor</a></li>
-            <li><a href="#">Buscador</a></li>
-            <li><a href="#">CRUD</a></li>
-        </ul>
-    </nav>
+    <div id="wrapper">
+        <header>
+            <nav>
+                <ul> <!--Lista desorganizada-->
+                    <li><a href="./index.html">Inicio</a></li> <!--Elementos links-->
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div>Esto es nuestro main</div>
+            <p>En esta pagina se encuentra un indice de los proyectos realizados durante el diplomado FullStack marzorzo
+            </p>
+
+            <h2>Esto es un h2</h2>
+            <table style="border: 2px solid white;">
+                <th>Esto es el header de la tabla</th>
+                <tbody>
+                    <tr>
+                        <td>Esto es una fila</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+        <footer>
+            <section>
+                <!--Formulario-->
+                <form action="#" method="post">
+                    <div>
+                        <label for="name">Tu nombre</label>
+                        <input id="name" type="text" name="nombre">
+                    </div>
+                    <div>
+                        <label for="telefono">Tu telefono</label>
+                        <input type="text" id="telefono" name="telefono">
+                    </div>
+                    <div>
+                        <label for="ciudad">Tu ciudad</label>
+                        <input type="text" id="ciudad" name="ciudad">
+                    </div>
+                    <div>
+                        <label for="message">Tu mensaje</label>
+                        <textarea name="mensaje" id="mesagge"></textarea>
+                    </div>
+                </form>
+            </section>
+        </footer>
+    </div>
 </body>
+
 </html>
