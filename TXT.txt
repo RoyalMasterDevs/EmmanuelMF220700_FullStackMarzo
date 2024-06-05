@@ -1,0 +1,3 @@
+Comando de git para cambio de descripción del ultimo commit:
+
+git commit --amend -m "Descripción"
